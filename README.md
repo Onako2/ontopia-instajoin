@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Ontopia Instajoin
 
-## Setup
+Join instantly on Ontopia!
+Go to @fantahund and say him "THANKS!" because this mod is practically a rebanding but with much less features(Only the instajoin feature)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Credits
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Thanks to @fantahund for the amazing code here [here](https://github.com/fantahund/CubesideMod/blob/main/src/main/java/de/fanta/cubeside/mixin/MixinCustomTitleScreen.java)
