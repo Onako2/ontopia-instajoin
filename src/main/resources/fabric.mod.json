@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ontopiaij",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Ontopia Instajoin",
   "description": "Join instantly the Minecraft server ontopia.de!",
@@ -9,7 +9,7 @@
     "Onako2"
   ],
   "contact": {
-    "homepage": "https://github.com/Onako2/ontopia-instajoin",
+    "homepage": "https://modrinth.com/mod/ontopia.de-instajoin",
     "sources": "https://github.com/Onako2/ontopia-instajoin",
     "issues": "https://github.com/Onako2/ontopia-instajoin/issues"
   },
@@ -29,7 +29,6 @@
 
   "depends": {
     "fabricloader": ">=0.14.0",
-    "fabric-api": "*",
     "minecraft": "1.19.*",
     "java": ">=17"
   },
