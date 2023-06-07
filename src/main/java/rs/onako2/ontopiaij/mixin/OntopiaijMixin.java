@@ -24,8 +24,7 @@ public abstract class OntopiaijMixin extends Screen {
     private void addCustomButton(int y, int spacingY, CallbackInfo ci) {
         this.addDrawableChild(ButtonWidget.builder(Text.translatable("custombutton.ontopia.joinontopia"), button -> {
             ServerInfo selectedEntry = new ServerInfo("Ontopia", "Ontopia.de", false);
-            ConnectScreen.connect(this, MinecraftClient.getInstance(), new ServerAddress("ontopia.de", 25565), selectedEntry);
+            ConnectScreen.connect(this, MinecraftClient.getInstance(), new ServerAddress("ontopia.de", 25565), selectedEntry, false);
         }).dimensions(this.width / 2 - 100 + 205, y + 14, 80, 20).build());
     }
-
 }
