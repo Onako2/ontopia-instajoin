@@ -1,3 +1,5 @@
 {
-    "custombutton.ontopia.joinontopia": "Join Ontopia"
+    "custombutton.ontopia.joinontopia": "Join Ontopia",
+    "ontopia.command.exists": "File has been deleted. Next time joining ontopia using the \"Instajoin\" button you will have to reconnect!",
+    "ontopia.command.not.exists": "File does not exist or was already deleted!"
 }

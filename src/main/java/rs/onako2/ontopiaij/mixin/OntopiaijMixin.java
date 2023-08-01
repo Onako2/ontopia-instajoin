@@ -24,6 +24,7 @@ public abstract class OntopiaijMixin extends Screen {
         super(title);
     }
 
+
     @Inject(at = @At("TAIL"), method = "initWidgetsNormal")
     private void addCustomButton(int y, int spacingY, CallbackInfo ci) {
         this.addDrawableChild(ButtonWidget.builder(Text.translatable("custombutton.ontopia.joinontopia"), button -> {
@@ -31,8 +32,8 @@ public abstract class OntopiaijMixin extends Screen {
 
 
             try {
-			File myObj = new File("ontopia");
-			if (myObj.createNewFile()) {
+			File thatFile = new File("ontopia");
+			if (thatFile.createNewFile()) {
 				ConnectScreen.connect(this, MinecraftClient.getInstance(), new ServerAddress("ontopia.de", 25566), selectedEntry, false);
 			} else {
                 ConnectScreen.connect(this, MinecraftClient.getInstance(), new ServerAddress("ontopia.de", 25565), selectedEntry, false);

@@ -1,3 +1,5 @@
 {
-    "custombutton.ontopia.joinontopia": "Ontopia beitreten"
+    "custombutton.ontopia.joinontopia": "Ontopia beitreten",
+    "ontopia.command.exists": "Datei wurde gelöscht. Nächstes mal bei der Benutzung vom \"Instajoin\" Knopf wirst du dich erneut verbinden müssen!",
+    "ontopia.command.not.exists": "Datei existiert nicht oder wurde schon gelöscht!"
 }
