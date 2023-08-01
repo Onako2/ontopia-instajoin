@@ -11,7 +11,8 @@
   "contact": {
     "homepage": "https://modrinth.com/mod/ontopia.de-instajoin",
     "sources": "https://github.com/Onako2/ontopia-instajoin",
-    "issues": "https://github.com/Onako2/ontopia-instajoin/issues"
+    "issues": "https://github.com/Onako2/ontopia-instajoin/issues",
+    "Discord": "https://dsc.gg/ontopia"
   },
 
   "license": "MIT",
